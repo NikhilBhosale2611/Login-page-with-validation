@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    /* background-color: red; */
+    /* background-image: url("nasa-rTZW4f02zY8-unsplash.jpg"); */
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageWater {
+    /* width: 100vw;
+    height: 100vh; */
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+
+}
+
+.right {
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100vh;
+}
+
+.right1 {
+    /* background-color: green; */
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rr1 {
+    padding: 20%;
+    height: 70%;
+
+}
+
+.item1 {
+    /* background-color: brown; */
+    text-align: center;
+    height: 15%;
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.item2 {
+    /* background-color: blue; */
+    /* text-align: center; */
+    height: 23%;
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+    /* justify-content: left; */
+}
+.item22{
+    display: flex;
+}
+
+#mailid {
+    padding: 3%;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.item3 {
+    /* background-color: red; */
+    /* text-align: center; */
+    height: 23%;
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+}
+
+#pass {
+    padding: 3%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+.item4 {
+    /* background-color: gray; */
+    /* text-align: center; */
+    height: 5%;
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+}
+
+#link2 {
+    margin-left: 40%;
+}
+
+.item5 {
+    /* background-color: saddlebrown; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15%;
+
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+}
+
+.btn1 {
+    height: 70%;
+    border-radius: 5%;
+    width: 100%;
+    background-color: #04c35c;
+    color: white;
+}
+
+#btn2 {
+    height: 70%;
+    border-radius: 5%;
+    width: 100%;
+    background-color: #2d3748;
+    color: white;
+}
+
+.btn1:hover {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    cursor: pointer;
+
+}
+
+#btn2:hover {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    cursor: pointer;
+
+}
+
+.item6 {
+    /* background-color: palevioletred; */
+    /* text-align: center; */
+    height: 15%;
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+}
+
+.right2 {
+    /* background-color: blue; */
+    text-align: center;
+    height: 10%;
+}
+
+/* ---------------------------------------------------------------- */
+
+@media only screen and (max-width: 321px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .right {
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100vh;
+    }
+
+    .rr1 {
+        padding: 20%;
+        height: 80%;
+
+    }
+
+    .item1 {
+        /* background-color: brown; */
+        text-align: center;
+        height: 20%;
+        /* padding-top: 2%;
+        padding-bottom: 2%; */
+        text-align: left;
+    }
+
+    h3 {
+        font-size: 1.07em;
+    }
+
+    .item2 {
+        height: 15%;
+    }
+
+    .item4 {
+        height: 15%;
+    }
+
+    .link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .link:hover {
+        color: black;
+    }
+
+    #link1 {
+        font-size: 16px;
+    }
+
+    #link2 {
+        margin-left: 0%;
+        font-size: 14px;
+    }
+
+    .item5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 15%;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+    .rr1 {
+        padding: 20%;
+        height: 80%;
+
+    }
+
+    .item1 {
+        text-align: center;
+        height: 20%;
+        text-align: left;
+    }
+
+    h3 {
+        font-size: 2.3em;
+    }
+
+    .item2 {
+        height: 15%;
+        margin-top: 12%;
+    }
+
+    .item4 {
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #link1 {
+        font-size: 16px;
+    }
+
+    #link2 {
+        margin-left: 0%;
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    .item5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 15%;
+    }
+}
